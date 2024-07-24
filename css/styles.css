@@ -1,0 +1,233 @@
+body{
+    background: #f6f6fa;
+    /*padding: 40px 40px 40px 40px; */
+	margin:0;
+    font-family: "Montserrat", sans-serif;
+    }
+    ul,ol{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .Wrapper{
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 1200px;
+        /*margin: 0 auto; */
+    }
+        .MainContent{
+            padding: 88px 80px 40px 80px ;
+            box-sizing: border-box;
+            h3{
+                font-weight: 700;
+                font-size: 22px;
+                color: #000;
+
+                margin-top: 0;
+                margin-bottom: 12px;
+            }
+            h4{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 125%;
+                color: #000;
+                margin-top :0;
+                margin-bottom: 8px;
+                .Company{
+                    color: #6d9bf5;
+                }
+            }
+            ul{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 171%;
+                color: #595959;
+
+                margin:0;
+                padding-left: 16px;
+
+            }
+        }
+            .MyProfession{
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 121%;
+                color: #000;
+                
+                margin-top: 0;
+                margin-bottom: 8px;
+            }
+            .name{
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 122%;
+                color: #000;
+
+                margin-top:0;
+                margin-bottom: 12px;
+
+            }
+            .AboutMeCountainer{
+                padding-bottom: 40px;
+            }
+                .AboutMe{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 171%;
+                    color: #595959;
+
+                    margin-top: 0;
+                    margin-bottom: 8px;
+                }
+            .MyProject{
+                margin-bottom: 40px;
+                ol{
+                    padding-left: 16px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 171%;
+                    color: #000;
+                    .MyProjectItemTech{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 171%;
+                        color: #595959;
+                    }
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 171%;
+                    text-decoration: underline;
+                    text-decoration-skip-ink: none;
+                    color: #005fff;}
+               
+
+            }
+            .WorkExsperience{
+                margin-bottom: 40px;
+            }
+                .WorkExsperienceContainer{
+                    margin-bottom: 16px;
+                }
+
+            .Education{
+                h4{
+                    a{
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #6d9bf5;
+                        text-decoration: none;
+                        text-decoration-skip-ink: none;
+                    }
+
+                    margin-top: 0;
+                }
+                h5{
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #000;
+
+                    margin-top: 0px;
+                    margin-bottom: 8px
+                }
+            }
+            .Date{
+                font-weight: 400;
+                font-size: 12px;
+                color: #a8a8a8;
+                margin-top: 0;
+                .stick{
+                    color: #000;
+                }
+            }
+
+
+        aside{
+            width: 370px;
+            background-color: #e0ebfe;
+            padding: 40px 40px 40px 40px;
+            h3{
+                font-weight: 700;
+                font-size: 22px;
+                color: #161d2a; 
+                margin-top: 0;
+                margin-bottom: 8px;
+            }
+        }
+            .Sidebar{
+                padding: 40px 40px 40px 40px;
+            }  
+                .ContactContainer{
+                    margin-bottom: 40px;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 171%;
+                    color: #161d2a;
+                    
+                }
+                    .ContHeadline{
+                        margin-top: 0;
+                        margin-bottom: 8px;
+                    }
+                        .ContTel{
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 171%;
+                            color: #161d2a;
+                        }
+
+                        .ContEmail{
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 171%;
+                                color: #161d2a;
+                        } 
+                        .ContLinks{
+                                text-decoration: underline;
+                                text-decoration-skip-ink: none;
+                                color: #2979ff;
+                        }
+
+
+                .SkillsContainer{
+                    margin-bottom: 40px;
+                    ul{
+                        margin:0;
+                        padding-left: 16px;
+                        li{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 171%;
+                            color: #161d2a;
+                        }
+                    }
+                    h3{
+                        font-weight: 700;
+                        font-size: 22px;
+                        color: #161d2a;
+                        margin-top: 0;
+                        margin-bottom: 8px;  
+                    }
+                }   
+                    
+                    .TechSkills{            
+                        display: flex;
+                        flex-direction: row;
+                        
+                    }
+                        .TechSkillsLevel{
+                            ul{
+                            list-style-type: none;
+                            }
+                        }
+                    .Language{
+                        display: flex;
+                        flex-direction: row;   
+                    }
+                        .LanguageLevel{
+                            ul{
+                                list-style-type: none;
+                            }
+                        }
+                
